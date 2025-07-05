@@ -1,0 +1,18 @@
+
+# Compiled Cairo artifacts
+target/
+build/
+.cairo_plugins/
+
+# Editor and OS files
+.DS_Store
+*.swp
+*.swo
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Logs
+*.log
