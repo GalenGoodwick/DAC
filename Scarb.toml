@@ -1,0 +1,12 @@
+[package]
+name = "whiplano_nft_prototype"
+version = "0.1.0"
+edition = "2023_10"
+
+[dependencies]
+starknet = ">=2.0.0"
+openzeppelin = { git = "https://github.com/OpenZeppelin/cairo-contracts", rev = "v0.8.0" }
+
+[lib]
+sierra = true
+casm = true
